@@ -1,0 +1,22 @@
+# TODO.md
+
+- [x] Initialize Project and Environment
+    - [x] Create `.venv` and install dependencies
+    - [x] Create project structure (`src/`, `tests/`)
+- [x] Backend Implementation
+    - [x] Implement AF data structures (`src/backend/af.py`)
+    - [x] Implement Semantics Logic (Grounded, Preferred, Stable) <!-- id: 5 -->
+    - [x] Refactor Semantics to use CSP Solver (`python-constraint`)
+    - [x] Implement Monte-Carlo Sampler (`src/backend/sampler.py`)
+    - [x] Write backend tests
+- [x] Frontend Implementation
+    - [x] Setup Dash app shell
+    - [x] Create interactive Graph Editor
+    - [x] Connect Analysis Logic to UI
+- [x] Save/Load/Export
+    - [x] Implement Save Graph
+    - [x] Implement Load Graph
+    - [x] Implement Export Image
+- [ ] Verification
+    - [ ] Run automated tests
+    - [ ] Validated UI workflows
