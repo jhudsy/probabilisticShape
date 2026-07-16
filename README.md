@@ -1,6 +1,6 @@
 # PrAF Evaluator
 
-A Python web application for evaluating **Probabilistic Argumentation Frameworks (PrAFs)**. This tool allows users to graphically design argumentation frameworks, assign probabilities to arguments, and evaluate them under various semantics.
+A (vibe coded) Python web application for evaluating **Probabilistic Argumentation Frameworks (PrAFs)**. This tool allows users to graphically design argumentation frameworks, assign probabilities to arguments, and evaluate them under various semantics.
 
 ## Features
 

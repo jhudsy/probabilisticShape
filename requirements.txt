@@ -3,3 +3,4 @@ dash-bootstrap-components
 networkx
 python-constraint
 pytest
+dash-cytoscape
