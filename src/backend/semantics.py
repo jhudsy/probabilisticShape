@@ -185,13 +185,6 @@ def get_preferred_extensions(af: ArgumentationFramework) -> List[Set[str]]:
                 is_subset = True
                 break
         if not is_subset:
-            # Check against other candidates? 
-            # Since we iterate generic list, need to check all bigger/equal ones.
-            # But we build 'preferred' incrementally.
-            # Actually, standard check: is there any OTHER admissible set T s.t. S subset T (strict)?
-            # Since we process large to small, if S is subset of any ALREADY processed P, it's not preferred.
-            # Whot about S subset of T where T is yet to be processed? Impossible due to sort.
-            # So, check if S is subset of any existing rigid preferred.
             preferred.append(S)
             
     return preferred
